@@ -13,7 +13,7 @@ class Library:
     def display(self):
         if not self.inven:
             return "empty"
-        return self.inven
+        return self.inven 
 
     def adds(self,book):
         for already in self.inven:
